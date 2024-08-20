@@ -17,10 +17,10 @@ class CustomUserSerializer(UserSerializer):
 class SubscriptionSerializer(serializers.ModelSerializer):
     """Сериализатор подписки."""
 
-    # TODO
+    user = serializers.PrimaryKeyRelatedField(read_only=True)
+    course = serializers.PrimaryKeyRelatedField(read_only=True)
+    start_date = serializers.DateTimeField(read_only=True)
 
     class Meta:
         model = Subscription
-        fields = (
-            # TODO
-        )
+        fields = ('id', 'user', 'course', 'start_date', 'end_date')

@@ -7,7 +7,18 @@ from users.models import Subscription
 
 User = get_user_model()
 
+from rest_framework import serializers
 
+
+class CourseListSerializer(serializers.ModelSerializer):
+    num_lessons = serializers.SerializerMethodField()  # Добавляем поле для количества уроков
+
+    class Meta:
+        model = Course
+        fields = ['id', 'title', 'author', 'start_date', 'price', 'num_lessons']  # Указываем, какие поля будут включены в сериализатор
+
+    def get_num_lessons(self, obj):
+        return obj.lessons.count()  # Считаем количество уроков, связанных с курсом
 class LessonSerializer(serializers.ModelSerializer):
     """Список уроков."""
 
@@ -122,3 +133,5 @@ class CreateCourseSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Course
+
+

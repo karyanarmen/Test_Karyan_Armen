@@ -13,5 +13,10 @@ def post_save_subscription(sender, instance: Subscription, created, **kwargs):
     """
 
     if created:
-        pass
-        # TODO
+        course = instance.course
+        groups = course.groups.all()  # Получаем все группы для курса
+
+        if groups.exists():
+            least_filled_group = min(groups, key=lambda
+                g: g.students.count())  # Находим группу с наименьшим количеством студентов
+            least_filled_group.students.add(instance.user)  # Добавляем пользователя в выбранную группу
