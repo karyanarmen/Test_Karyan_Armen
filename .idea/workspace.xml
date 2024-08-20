@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e6050101-6713-4896-98f9-f08ea6302172" name="Changes" comment="Выполнение тестового задания">
+      <changelist_data name="Выполненное тестовое задание" email="k.00744@yandex.ru" />
+      <change afterPath="$PROJECT_DIR$/product/api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/api/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/api/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/api/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/api/v1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/api/v1/permissions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/api/v1/serializers/course_serializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/api/v1/serializers/user_serializer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/api/v1/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/api/v1/views/course_view.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/api/v1/views/user_view.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/courses/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/courses/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/courses/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/courses/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/courses/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/courses/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/courses/signals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/product/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/users/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/users/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/users/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/users/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/users/migrations/0002_balance_amount_balance_user_subscription_course_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/users/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product/users/models.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Выполненное тестовое задание &lt;k.00744@yandex.ru&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2kvJpXf5DowDoaZ1nqyTunzcROK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-0509580d9d50-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.14494.241" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e6050101-6713-4896-98f9-f08ea6302172" name="Changes" comment="" />
+      <created>1724158301804</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1724158301804</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Выполнение тестового задания">
+      <option name="closed" value="true" />
+      <created>1724175041624</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724175041625</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Выполнение тестового задания">
+      <option name="closed" value="true" />
+      <created>1724178359873</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1724178359873</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Выполнение тестового задания">
+      <option name="closed" value="true" />
+      <created>1724179233687</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724179233687</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Выполнение тестового задания">
+      <option name="closed" value="true" />
+      <created>1724179306638</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1724179306638</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Выполнение тестового задания">
+      <option name="closed" value="true" />
+      <created>1724179359045</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1724179359045</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Выполнение тестового задания" />
+    <option name="LAST_COMMIT_MESSAGE" value="Выполнение тестового задания" />
+  </component>
+</project>
